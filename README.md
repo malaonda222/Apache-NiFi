@@ -40,14 +40,6 @@ GenerateFlowFile (Magazzino)─┘                                          │
 
 Output finale: 4 file CSV — `inner_join.csv`, `left_join.csv`, `right_join.csv`, `report_finale.csv`.
 
-## Screenshot
-
-*(sostituisci con le tue immagini nella cartella `screenshots/`)*
-
-![Vista d'insieme del flusso](screenshots/flusso-completo.png)
-![Esempio di query self-join](screenshots/query-inner-join.png)
-![Risultato finale](screenshots/output-finale.png)
-
 ## Come eseguirlo
 
 **Prerequisiti**: Apache NiFi 2.x installato in locale.
@@ -67,10 +59,6 @@ Output finale: 4 file CSV — `inner_join.csv`, `left_join.csv`, `right_join.csv
 ├── README.md
 └── screenshots/           # Immagini del flusso e dei risultati
 ```
-
-## Note tecniche
-
-Il dettaglio di ogni processore (perché è stato scelto, come è configurato, le query SQL usate) è disponibile in [`documentazione_flusso_nifi.md`](documentazione_flusso_nifi.md).
 
 ## Licenza
 
